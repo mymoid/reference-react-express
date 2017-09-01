@@ -8,6 +8,7 @@ You can find the most recent version of this guide [here](https://github.com/fac
 - [Updating to New Releases](#updating-to-new-releases)
 - [Sending Feedback](#sending-feedback)
 - [Folder Structure](#folder-structure)
+- [Use with docker](#use-with-docker)
 - [Available Scripts](#available-scripts)
   - [npm start](#npm-start)
   - [npm test](#npm-test)
@@ -145,6 +146,15 @@ Read instructions below for using assets from JavaScript and HTML.
 
 You can, however, create more top-level directories.<br>
 They will not be included in the production build so you can use them for things like documentation.
+
+## Use with Docker
+
+In the project directory, you can run:
+
+### `docker-compose up`
+
+Runs the app with node 7.7 and run `npm start`.
+Open  [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ## Available Scripts
 
